@@ -1,0 +1,108 @@
+body {
+  background-color: aliceblue;
+}
+.history {
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.historyList {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.allHistory {
+  width: 20%;
+}
+.histDlt {
+  color: red;
+  width: 80%;
+  height: 30px;
+  border-radius: 5px;
+}
+.histbtn {
+  width: 50%;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.historyButton {
+  color: black;
+  width: 40%;
+  justify-content: right;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.historyTitle {
+  width: 40%;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+.historyDelete {
+  width: 20%;
+  justify-content: right;
+  align-items: flex-end;
+  flex-direction: column;
+  display: flex;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 370px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .allHistory {
+    width: 80%;
+  }
+  .historyButton {
+    float: right;
+    width: 40%;
+  }
+  .historyTitle {
+    width: 30%;
+    float: left;
+  }
+  .historyList button {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+}
+@media (max-width: 1070px) {
+  .container {
+    margin: 0 10%;
+  }
+  .allHistory {
+    width: 80%;
+  }
+  .historyButton {
+    float: right;
+    width: 40%;
+  }
+  .historyTitle {
+    width: 40%;
+    float: left;
+  }
+  .historyList button {
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+  }
+}
